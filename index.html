@@ -12,16 +12,20 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body> 
-    <section  class="container">
-    <header class="header">
-        <div><h2 class="header-title">G3 Architects</h2></div>
-        <div class="navbar">
-            <div>Home</div>
-            <div>About</div>
-            <div>Contact Us</div>
-            <div>Login</div>
+    <section  class="banner">
+    <div class="header-container">
+        <h2 class="header-title">G3 Architects</h2>
+        <div class="header-design">
+            <!-- <h2 class="header-title">G3 Architects</h2> -->
+            <div class="navbar">
+                <div>Home</div>
+                <div>About</div>
+                <div>Contact Us</div>
+                <div>Login</div>
+            </div>
         </div>
-    </header>
+        
+    </div>
         <!-- article section -->
         <div class="article">
         <div class="article-title">
@@ -89,7 +93,12 @@
     </div>
 
         <div class="feature-pic">
-           <img  src="./images/architect.png" alt="">
+         <div class="img-container"><img  src="./images/architect.png" alt=""></div>
+        <div class="box">
+            <h1 class="box-header">10+Year
+               </h1>
+               <p class="box-paragraph"> Experience</p>
+        </div>
         </div>
 
     </div>
@@ -154,9 +163,24 @@
 
             </div>
 
+
             
         <!-- </div> -->
     </footer>
+    <!-- contact -->
+    <div class="wrapper">
+        <form class="form">
+          <div class="pageTitle title">Contact Us </div>
+          <div class="secondaryTitle title">Please fill this form to Contact.</div>
+          <input type="text" class="name formEntry" placeholder="Name" />
+          <input type="text" class="email formEntry" placeholder="Email"/>
+          <textarea class="message formEntry" placeholder="Message"></textarea>
+          
+          <br>
+          <button class="submit formEntry">Submit</button>
+        </form>
+      </div>
+    <!-- end of contact -->
     <div class="footer">
         <p class="footer-p">
             All rights reserved copyright@2023 startup landing page design
